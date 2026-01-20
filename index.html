@@ -6,6 +6,10 @@
 <title>Malla antropología puc (˶˃ ᵕ ˂˶) .ᐟ.ᐟ</title>
 <link rel="shortcut icon" href="https://i.pinimg.com/736x/26/83/6a/26836ab3897ec2097c37d77bca948631.jpg">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
 <style>
 * {
     cursor: url(https://cur.cursors-4u.net/nature/nat-11/nat1027.ani),
@@ -14,6 +18,7 @@
 
 body {
     margin: 0;
+    font-family: 'Nunito', sans-serif;
     min-height: 100vh;
     justify-content: center;
     align-items: center;
@@ -30,7 +35,7 @@ body {
     inset: 0;
     background: #e18a8a;
     display: flex;
-    opacity: 1; /* ← THIS IS THE KEY */
+    opacity: 1; 
     transition: opacity 0.3s ease;
     pointer-events: all;
     justify-content: center;
@@ -67,9 +72,9 @@ body {
     <p>Contenido principal de la página.</p>
 </div>
 
-<!-- WELCOME OVERLAY -->
+
 <div id="overlay" onclick="closeOverlay()">
-    <div class="welcome-box" onclick="event.stopPropagation()">
+    <div class="welcome-box">
         <h1>Bienvenida/o/e a la malla interactiva de antropología PUC! (˶ˆᗜˆ˵)</h1>
         <p>Hacer click sobre un ramo hará que se tache, esto hará que se muestren los que poseen prerrequisitos. Clickea en cualquier lado para ingresar !!</p>
         <img src="https://i.pinimg.com/originals/5d/1d/c0/5d1dc0ad275b80ffeda32b6cb0b24da2.gif" alt="gif bienvenida">
